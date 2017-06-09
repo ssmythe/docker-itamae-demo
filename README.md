@@ -35,6 +35,8 @@ itamae demo using Docker
 
     itamae local uninstall.rb
 
+## Browse localhost:8888 and see nginx not running
+
 ## See all nginx packages have been removed
 
     yum list installed | grep nginx
