@@ -9,29 +9,29 @@ itamae demo using Docker
 
 # demo
 
-1. Install nginx
+## Install nginx
 
     cat install.rb
     itamae local install.rb
 
-2. Browse localhost:8080 and see nginx default index.html
+## Browse localhost:8080 and see nginx default index.html
 
-3. Update index.html
+## Update index.html
 
     cat template.erb
     cat update_index_html.rb
     itamae local update_index_html.rb
 
-4. Browse localhost:8080 and see updated index.html
+## Browse localhost:8888 and see updated index.html
 
-5. See nginx installed packages
+## See nginx installed packages
 
     yum list installed | grep nginx
 
-6. Remove nginx
+## Remove nginx
 
     itamae local uninstall.rb
 
-7. See all nginx packages have been removed
+## See all nginx packages have been removed
 
     yum list installed | grep nginx
