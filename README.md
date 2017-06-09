@@ -1,8 +1,9 @@
 # itamae-docker-demo
 itamae demo using Docker
 
-# reference
-* https://github.com/itamae-kitchen/itamae/wiki
+itamae home page: http://itamae.kitchen/
+itamae project wiki: https://github.com/itamae-kitchen/itamae/wiki
+itamae resources: https://github.com/itamae-kitchen/itamae/wiki/Resources
 
 # build
     docker build -t ssmythe/itamae:1.1 https://github.com/ssmythe/itamae-docker-demo.git
