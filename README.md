@@ -17,6 +17,11 @@ itamae demo using Docker
     cat install.rb
     itamae local install.rb
 
+## See nginx chkconfig and service status
+
+    chkconfig --list
+    service nginx status
+
 ## Browse localhost:8080 and see nginx default index.html
 
 ## Update index.html
@@ -34,6 +39,11 @@ itamae demo using Docker
 ## Remove nginx
 
     itamae local uninstall.rb
+
+## See nginx service and chkconfig entry is gone
+
+    service nginx status
+    chkconfig --list
 
 ## Browse localhost:8888 and see nginx not running
 
