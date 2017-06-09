@@ -6,7 +6,7 @@ itamae demo using Docker
 * itamae resources: https://github.com/itamae-kitchen/itamae/wiki/Resources
 
 # build
-    docker build -t ssmythe/itamae:1.1 https://github.com/ssmythe/itamae-docker-demo.git
+    docker build -t ssmythe/itamae:1.1 https://github.com/ssmythe/docker-itamae-demo.git
 
 # run
     docker run -it -p 8888:80 ssmythe/itamae:1.1 /bin/bash
