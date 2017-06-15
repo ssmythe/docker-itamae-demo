@@ -23,7 +23,7 @@ itamae demo using Docker
     chkconfig --list
     service nginx status
 
-## Browse localhost:8080 and see nginx default index.html
+## Browse localhost:8888 and see nginx default index.html
 
 ## Update index.html
 
